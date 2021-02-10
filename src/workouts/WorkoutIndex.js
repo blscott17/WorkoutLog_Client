@@ -51,7 +51,7 @@ const WorkoutIndex = (props) => {
           <WorkoutTable
             workouts={workouts}
             editUpdateWorkout={editUpdateWorkout}
-            upDateOn={updateOn}
+            updateOn={updateOn}
             fetchWorkouts={fetchWorkouts}
             token={props.token}
           />
